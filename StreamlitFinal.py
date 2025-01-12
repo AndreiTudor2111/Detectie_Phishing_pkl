@@ -12,8 +12,8 @@ import numpy as np
 from urllib.parse import urlparse
 import re
 
-xgb_model_path = "./Fine_Tuned_XGBoost.pkl"
-scaler_path = "./scaler.pkl"
+xgb_model_path = "Fine_Tuned_XGBoost.pkl"
+scaler_path = "scaler.pkl"
 
 
 # Load the fine-tuned models and scaler
