@@ -12,11 +12,9 @@ import numpy as np
 from urllib.parse import urlparse
 import re
 
-# Path to the saved models and scaler
-save_path = r'D:\MASTER\Cyber Security\Proiect\Pregatire_Proiect'
-# rf_model_path = f"{save_path}/Fine_Tuned_Random_Forest.pkl"  # Comentat pentru Random Forest
-xgb_model_path = f"{save_path}/Fine_Tuned_XGBoost.pkl"
-scaler_path = f"{save_path}/scaler.pkl"
+xgb_model_path = "./Fine_Tuned_XGBoost.pkl"
+scaler_path = "./scaler.pkl"
+
 
 # Load the fine-tuned models and scaler
 # with open(rf_model_path, "rb") as rf_file:
